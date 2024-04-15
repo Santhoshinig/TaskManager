@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Schedular</title>
+    <link rel="stylesheet" href="task.css">
+  </head>
+  <body>
+    <nav class="head">
+        <div class="logo-container">
+            <img src="logo.png" alt="noimg" id="img">
+            <h4>Task Scheduler</h4>
+        </div>
+        <div class="cont">
+            <a href="login .html" class="Signin">Signin</a>
+        </div>
+    </nav>
+  
+    <div class="box">
+        <div class="form" id="datass">
+            <table>
+            <tr><td><label>TaskName:</td> 
+           <td>
+            <select id="task" class="taskopt">
+                <option value="Select"></option> 
+                <option value="Professioanl">Professioanl</option> 
+                <option value="Personal">Personal</option> 
+                <option value="Passion">Passion</option> 
+                <option value="Others">Others</option> 
+              </select>
+           </td></tr>           
+        <tr> <td><label>Description: </td> <td><input id="description" type="text" class="task"/></label></td></tr>
+    <tr><td> <label>Duration:</td><td> <input id="duration" type="text" class="task" disabled/></label></td></tr>
+</table>
+            <span id="error"></span>
+            <div class="buttons">
+            
+            <button  class="button" id="btn"  onclick="addtable()">Add Task</button>
+            <button onclick="clearInputField()" class="reset">
+                Click here to clear
+            </button>
+        </div>
+        </div>
+        </div>
+        
+       <div >
+    <p class="ff"> Filter:</p>
+    <select id="filterDropdown" onchange="Filtering()">
+    <option value="All">All</option> 
+    <option value="Professioanl">Professioanl</option> 
+    <option value="Personal">Personal</option> 
+    <option value="Passion">Passion</option> 
+    <option value="Others">Others</option> 
+</select>
+
+</div>
+
+
+        <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."> -->
+
+        <div id="tables" class="table">
+            <table id="table" class="tab" border=" 1px solid">
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Description</th>
+                        <th>Duration</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+               
+
+            </table>
+   
+
+<div class="stopcont">
+    <div class="stopwatch">
+        <h1 id="display">00:00:00</h1>
+        <div class="controls">
+            <button id="stopwatch" onclick="startstop()">Start</button>
+            <button id="resetBtn" onclick="reset()">Reset</button>
+        </div>
+    </div>
+</div>
+
+       
+        <script src="task.js">
+
+        </script>
+  </body>
+</html>

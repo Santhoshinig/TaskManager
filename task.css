@@ -1,0 +1,263 @@
+
+*{
+    top: 0;
+}
+body{
+    background-color: #00415A;
+}
+.form{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+     margin-top: 20px;
+}
+.desc input{
+    font-size: 18px;
+   margin-top: 20px;
+}
+.dura{
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.task {
+    margin-top: 20px;
+}
+
+.form{
+    width: 550px;
+    height: 250px;
+    background-color:aliceblue;
+    border-radius: 5px;
+    border: 5px solid green;
+    border-right: 5px solid green;
+    margin-top: 10px;
+    margin-left: 200px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+#btn{
+    width: 90px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: none;
+   color: white;
+   background-color: rgb(35, 128, 55);
+   border-radius: 10px;
+}
+.reset{
+    width: 140px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+   color: white;
+   background-color:red;
+   border: none;
+   border-radius: 10px;
+}
+.button{
+    display: inline;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+#img{
+    margin-left: 10PX;
+    width:180px;
+    height:120px;
+    border-radius: 20px;
+}
+
+.logo-container h4 {
+    text-align: center;
+    padding: 10px;
+    color: cadetblue;
+    font-size: 24px;
+
+  
+}
+
+.cont {
+    margin-right: 10px;
+    margin-top: 0px;
+    width: 100px;
+    height: 30px;
+}
+
+.Signin {
+    text-decoration: none;
+    padding: 5px 10px;
+    
+    border: 1px solid;
+    background-color: darkcyan;
+    border-radius: 5px;
+    color:white;
+    margin-top: 0px;
+}
+.cont a:hover{
+    background-color: aquamarine;
+}
+.dutext{
+    margin-top: 30px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.stopwatch {
+ 
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    display: inline;
+    flex-direction: row;
+    margin-left: 840px;
+    position: absolute;
+    padding-top: 100px;
+    
+}
+
+
+#display {
+    font-size: 3em;
+}
+
+.controls {
+    margin-top: 10px;
+    
+}
+.taskopt{
+    margin-top: 15px;
+    width: 300px;
+    height: 30px;
+    margin-left: 5px;
+
+}
+.controls button {
+    margin: 10px 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: row;
+    transition-duration: 0.4s;
+}
+
+.controls button:hover {
+    background-color: #45a049;
+}
+
+.controls button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.form input{
+    width:290px;
+    height:20px;
+   margin-left: 5px;
+   padding-top: 10px;
+ 
+}
+.form select{
+   font-size: 16px;
+
+}
+.table{
+    margin-left: 10px;
+    
+}
+.tab{
+    border-collapse: collapse;
+    background-color:aliceblue ;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.tab thead{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+#table {
+    border-collapse: collapse;
+    width:90%;
+}
+
+#table th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+
+#table td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+
+.edit{
+    background-color:green;
+    width: 100px;
+    height: 30px;
+    border-radius: 9px;
+    gap: 15px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-bottom: 10px;
+    padding: 10px 0 0 15px;
+    border: none;
+}
+.delete{
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    background-color:red;
+    width: 100px;
+    border-radius: 9px;
+    height: 30  px;
+    color: white;
+    gap: 15px;
+    margin-left: 10px;
+    padding: 10px 0 0 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#filterDropdown{
+     width: 200px;
+     height: 30px;
+     font-size: 18px;
+     display: inline;
+     margin-left:10px;
+
+}
+.ff{
+    display: inline;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
